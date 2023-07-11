@@ -176,11 +176,11 @@ def mumit_menu():
     print('\033[1;92m [0] EXIT TOOL')
     linex()
     mumit=input(' \033[1;32m[?] SELECT MENU: ')
-    if mumit in['1','01']:innocent()
+    if mumit in['1','01']:Ax-Pro()
     elif mumit in['0','00']:exit()
     else:exit()
     
-def innocent():
+def Ax-Pro():
     user=[]
     twf =[]
     os.getuid
@@ -278,7 +278,7 @@ def mumitx(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r\r%s\033[0;97m[\033[0;96mINNOCENT\033[0;97m]..[\033[0;94m%s/%s\033[0;97m]..[\033[0;92mOK\033[0;97m/\033[0;91mCP\033[0;97m]..[\033[0;92m%s\033[0;97m/\033[0;91m%s\033[0;97m] '%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r\r%s\033[0;97m[\033[0;96mAx-PRO\033[0;97m]..[\033[0;94m%s/%s\033[0;97m]..[\033[0;92mOK\033[0;97m/\033[0;91mCP\033[0;97m]..[\033[0;92m%s\033[0;97m/\033[0;91m%s\033[0;97m] '%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
