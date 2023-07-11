@@ -180,7 +180,7 @@ def mumit_menu():
     elif mumit in['0','00']:exit()
     else:exit()
     
-def Ax-Pro():
+def innocent():
     user=[]
     twf =[]
     os.getuid
